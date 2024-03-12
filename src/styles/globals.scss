@@ -1,0 +1,58 @@
+@use "@carbon/react/scss/themes" as *;
+@use "@carbon/react/scss/colors";
+@use "@carbon/react/scss/spacing" as *;
+@use "@carbon/react";
+
+.bx--btn--tertiary {
+  background-color: colors.$white;
+  border: 2px solid colors.$gray-100;
+  color: rgb(32, 32, 32);
+  margin: $spacing-05;
+}
+
+.bx--data-table-header {
+  // background-color: colors.$grey-10;
+}
+.cds--side-nav {
+  margin-top: 3rem;
+}
+
+a.cds--side-nav__link {
+  padding: 1rem 1rem;
+}
+.cds--header__global {
+  background-color: colors.$gray-100;
+  color: white;
+}
+.cds--header__menu-bar {
+  background-color: colors.$gray-100;
+  color: white;
+}
+.cds--header {
+  background-color: colors.$gray-100;
+  color: white;
+}
+a.cds--header__menu-item {
+  background-color: colors.$gray-100;
+  color: white;
+}
+a.cds--header__name {
+  color: white;
+}
+.cds--data-table-header__title {
+  color: #0f62fe;
+}
+.cds--data-table th {
+  background-color: colors.$gray-100;
+  color: white;
+}
+.profile_title {
+  color: #0f62fe;
+  margin-bottom: 1rem;
+}
+.cds--data-table-header {
+  background-color: colors.$white;
+}
+.cds--side-nav__items {
+  background-color: colors.$gray-10;
+}
