@@ -10,7 +10,7 @@ const ProfileForm = () => {
             <h4 className="profile_title">User Profile</h4>
             <form>
               <div style={{ marginBottom: "1rem" }}>
-                <label htmlFor="fullName">Full Name:</label>
+                <label htmlFor="fullName">Full Name</label>
                 {/* Increase input width by applying a style */}
                 <TextInput
                   id="fullName"
@@ -20,7 +20,7 @@ const ProfileForm = () => {
                 />
               </div>
               <div style={{ marginBottom: "1rem" }}>
-                <label htmlFor="fullName">Last Name:</label>
+                <label htmlFor="fullName">Last Name</label>
                 {/* Increase input width by applying a style */}
                 <TextInput
                   id="lastName"
@@ -30,7 +30,27 @@ const ProfileForm = () => {
                 />
               </div>
               <div style={{ marginBottom: "1rem" }}>
-                <label htmlFor="address">Address:</label>
+                <label htmlFor="fullName">Role</label>
+                {/* Increase input width by applying a style */}
+                <TextInput
+                  id="role"
+                  name="role"
+                  value="Developer"
+                  style={{ width: "100%" }}
+                />
+              </div>
+              <div style={{ marginBottom: "1rem" }}>
+                <label htmlFor="fullName">Experience</label>
+                {/* Increase input width by applying a style */}
+                <TextInput
+                  id="experience"
+                  name="experience"
+                  value="4"
+                  style={{ width: "100%" }}
+                />
+              </div>
+              <div style={{ marginBottom: "1rem" }}>
+                <label htmlFor="address">Address</label>
                 {/* Increase input width by applying a style */}
                 <TextInput
                   id="address"
